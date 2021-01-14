@@ -6,12 +6,12 @@ def encrypt(password, key):
     #Generate key
     if len(key) > n:
         key = key[0:n]
-        
-    key = list(key) 
-    for i in range(n - len(key)): 
-        key.append(key[i % len(key)]) 
+    else: 
+        key = list(key) 
+        for i in range(n - len(key)): 
+            key.append(key[i % len(key)]) 
 
-    key = "" . join(key)
+        key = "" . join(key)
 
     #Generate encrypted password:
     cipher = []
