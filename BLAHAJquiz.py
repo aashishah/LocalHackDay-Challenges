@@ -1,4 +1,4 @@
-print("WELCOME TO THE QUIZ.\n Quick RUles:\n 1. Answer Yes/No questions with yes/no in full words. \n That's all.")
+print("WELCOME TO THE QUIZ.\n Quick Rules:\n 1. Answer Yes/No questions with yes/no in full words. \n That's all.")
 
 name = input("K. What's your name, bud?\n")
 ans1 = input("Alright, {}. Do you think you are you a BLAHAJista?\n".format(name))
